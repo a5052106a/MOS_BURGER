@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+/* header */
+
+header{
+    width: auto;
+    height: 100px;
+    background-color: #FFA63E;
+    display: inline-flex;
+}
+.logo{
+    width: 100px;
+    height: 95px;
+    margin-left: 33px;
+    display: inline-block;
+}
+              /* nav & ul & li & img 都是block */
+nav{
+    display: flex;
+    width: 1306px;
+    height: 100px;
+    padding: 50px 95px 29px 573px;
+    justify-content: space-between;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.2em;
+}
+#link1:hover{
+    color: white;
+}
+
+
+/* container */
+
+.container{
+    background-color: #FBF2D3;
+    padding:82px 120px 0 120px;
+    display: block;
+    width: 1440px;
+}
+
+
+/* title */
+
+.title{
+    margin-bottom: 31px;
+}
+
+h6{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+}
+
+/* introduction */
+
+.introduction{
+    margin-bottom: 89px;
+}
+
+.detal{
+    margin-bottom: 106px;
+}
+
+/* footer */
+footer{
+    background-color: #FBF2D3;
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+}
+p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    padding-bottom: 21px;
+}

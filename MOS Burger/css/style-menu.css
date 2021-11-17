@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+/* header */
+
+header{
+    width: auto;
+    height: 100px;
+    background-color: #FFA63E;
+    display: inline-flex;
+}
+.logo{
+    width: 100px;
+    height: 95px;
+    margin-left: 33px;
+    display: inline-block;
+}
+              /* nav & ul & li & img 都是block */
+nav{
+    display: flex;
+    width: 1306px;
+    height: 100px;
+    padding: 50px 95px 29px 573px;
+    justify-content: space-between;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.2em;
+}
+#link1:hover{
+    color: white;
+}
+/* ------------------container-------------------- */
+
+.container{
+    background-color: #FBF2D3;
+    padding-left: 40px;
+    padding-right: 117px;
+    display: inline-flex;
+}
+
+/* LEFT */
+
+.container-left{
+    display: inline-flex;
+}
+.container-left-img{
+    width: 280px;
+    height: 398px;
+    margin-top: 228px;
+    margin-right: 75px;
+}
+
+/* RIGHT */
+
+.container-right{
+    display: inline-block;
+}
+
+/* title */
+
+.title{
+    width: 928px;
+    padding-top: 87px;
+    padding-bottom: 23px;
+    display: flex;
+    align-items: center;
+}
+h5{
+    display: inline;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+}
+h6{
+    display: inline;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    padding-left: 10px;
+}
+
+/* banner */
+.banner{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* burger */
+
+.burger{
+    width: 928px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.burger-item{
+    display: inline-block;
+    width:280px;
+    height:350px;
+    margin-top: 44px;
+}
+#link2:hover{
+    opacity: 80%;
+}
+
+/* footer */
+footer{
+    background-color: #FBF2D3;
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+}
+p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    padding-bottom: 21px;
+}
+
+
