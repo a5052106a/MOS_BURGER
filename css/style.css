@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin-left: 0px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+/* header */
+
+.myheader{
+    width: auto;
+    height: 100px;
+    background-color: #FFA63E;
+    display: inline-flex;
+}
+.img-logo{
+    width: 100px;
+    height: 95px;
+    margin-left: 33px;
+    display: inline-block;
+}
+
+/* NavBar */
+
+.mynav{
+    display: flex;
+    width: 1306px;
+    height: 100px;
+    padding: 50px 95px 29px 573px;
+    justify-content: space-between;
+}
+.mynav-item{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.2em;
+}
+#link1:hover{
+    color: white;
+}
+.mynav-item:hover{
+    color: black;
+}
+
+
+
+/* Body */
+.mycontainer {
+    width: 1440px;
+    padding-top: 44px;
+    padding-bottom: 15px;
+    background-color: #FBF2D3;
+}
+/* Title */
+.mytitle{
+    display: flex;
+    padding-left: 98px;
+    align-items: center;
+}
+.title-icon{
+    width: 36px;
+}
+
+.title-text{
+    display: inline-block;
+    padding-left: 14px;
+    padding-top: 1.25rem;
+    font-weight: 350;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+
+/* Carousel */
+.carousel-setting{
+    width: 1286px;
+    margin: 0px 77px;
+}
+.carousel-inner{
+    border-radius: 20px;
+}
+.d-block{
+    width: 1000px;
+}
+/* Order */
+.box-order{
+    padding: 50px 155px 26.5px 155px;
+}
+.img-order{
+    width: 1130px;
+}
+
+/* Ranking */
+.ranking{
+    display: flex;
+    justify-content: space-between;
+    padding: 26.5px 107px;
+}
+.ranking-item{
+    width: 242px;
+    height: 302px;
+}
+#link2:hover{
+    opacity: 80%;
+}
+
+
+/* Banner */
+.banner{
+    padding:26.5px 0px ;
+}
+.banner-img{
+    width: 1440px;
+}
+
+
+
+/* Footer */
+.myfooter{
+    margin: 23.5px;
+    display: flex;
+    text-align: center; 
+    list-style: none;
+    flex-direction: column;
+
+}
+.footer-content{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
