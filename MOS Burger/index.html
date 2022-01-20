@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+	<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="SCSS/all.css" rel="stylesheet">
+    <link rel="icon" href="Image/mos icon.ico">
+    <title>MOS BURGER｜摩斯漢堡歡迎您</title>
+</head>
+<body>
+    <!--header-->
+    <nav class="myheader navbar navbar-expand-lg navbar-light  fixed-top bg-color">
+        <a class="navbar-brand" href="#"><img class="img-logo" src="Image/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="mynav collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li><a class="mynav-item" href="menu.html">美味專區</a></li>
+              <li><a class="mynav-item" href="#section2">店舖情報</a></li>
+              <li><a class="mynav-item" href="#section3">人才招募</a></li>
+              <li><a class="mynav-item" href="#section2">企業社會責任</a></li>
+              <li><a class="mynav-item" href="#section3">會員登入</a></li>
+            </ul>
+          </div>
+        </nav>
+    <!-- Content -->
+    <div class="container mycontainer">
+
+        <!--Title-->
+        <div class="mytitle">
+            <img class="title-icon" src="Image/Vector.png">
+            <p class="title-text">最新消息</p>
+        </div>
+
+        <!-- Carousel -->
+        <div class="carousel-setting">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Image/1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/3.jpeg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Oder -->
+        <!-- <div class="box-order">
+            <img class="img-order" src="Image/Group 1.png">
+        </div> -->
+        <div class="order-box">
+            <div class="choose">
+                <div class="radio-div">
+                <input type="radio" id="tab1"  name="tab" checked>
+                <label class= "order-label"for="tab1">
+                <img class="img-order" src="Image/Vector01.png">預約快取</label>
+                </div>
+                <div class="radio-div">
+                <input type="radio" id="tab2" name="tab">
+                <label class= "order-label" for="tab2">
+                <img class="img-order" src="Image/Vector02.png">預約外送</label>
+                </div>
+            </div>
+
+            <article class="tabtxt">
+                <p class="order-time">取餐日期：2021/11/12(五) 18:00</p>
+                <div class="oder-selection">
+
+
+                    <!-- left -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="order-left col-lg-12">
+                                <div class="order-dropdown">
+                                    <p class="order-store">預約店舖：台北市</p>
+                                    <!-- 下拉 -->
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            區
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><label class="dropdown-item" >中正區</la></li>
+                                            <li><label class="dropdown-item" href="">中正區</label></li>
+                                            <li><label class="dropdown-item" href="">大同區</label></li>
+                                            <li><label class="dropdown-item" href="">中山區</label></li>
+                                            <li><label class="dropdown-item" href="">松山區</label></li>
+                                            <li><label class="dropdown-item" href="">大安區</label></li>
+                                            <li><label class="dropdown-item" href="">萬華區</label></li>
+                                            <li><label class="dropdown-item" href="">信義區</label></li>
+                                            <li><label class="dropdown-item" href="">士林區</label></li>
+                                            <li><label class="dropdown-item" href="">北投區</label></li>
+                                            <li><label class="dropdown-item" href="">內湖區</label></li>
+                                            <li><label class="dropdown-item" href="">南港區</label></li>
+                                            <li><label class="dropdown-item" href="">文山區</label></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="order-add">新生店（台北市大安區新生南路1段161-1號)</p>
+                                <div class="order-right">
+                                    <a href="order_1.html" >
+                                    <button class="order-button">前往訂餐</button></a>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+
+                    <!-- right -->
+                    
+                    
+                            <!-- <div class="order-right">
+                                <a href="order_1.html" >
+                                <button class="order-button">前往訂餐</button></a>
+                            </div> -->
+                        
+
+                </div>
+            </article>
+
+
+            <article class="tabtxt">
+                <p class="order-time">取餐日期：2021/11/12(五) 18:00</p>
+                <div class="oder-selection">
+
+
+                    <!-- left -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="order-left col-lg-12">
+                                <div class="order-dropdown">
+                                    <p class="order-store">預約店舖：台北市</p>
+                                    <!-- 下拉 -->
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            區
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><label class="dropdown-item" >中正區</la></li>
+                                            <li><label class="dropdown-item" href="">中正區</label></li>
+                                            <li><label class="dropdown-item" href="">大同區</label></li>
+                                            <li><label class="dropdown-item" href="">中山區</label></li>
+                                            <li><label class="dropdown-item" href="">松山區</label></li>
+                                            <li><label class="dropdown-item" href="">大安區</label></li>
+                                            <li><label class="dropdown-item" href="">萬華區</label></li>
+                                            <li><label class="dropdown-item" href="">信義區</label></li>
+                                            <li><label class="dropdown-item" href="">士林區</label></li>
+                                            <li><label class="dropdown-item" href="">北投區</label></li>
+                                            <li><label class="dropdown-item" href="">內湖區</label></li>
+                                            <li><label class="dropdown-item" href="">南港區</label></li>
+                                            <li><label class="dropdown-item" href="">文山區</label></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="order-add">新生店（台北市大安區新生南路1段161-1號)</p>
+                                <div class="order-right">
+                                    <a href="order_1.html" >
+                                    <button class="order-button">前往訂餐</button></a>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+
+                    <!-- right -->
+                    
+                    
+                            <!-- <div class="order-right">
+                                <a href="order_1.html" >
+                                <button class="order-button">前往訂餐</button></a>
+                            </div> -->
+                        
+
+                </div>
+            </article>
+        </div>
+        
+
+
+        
+    
+        
+        
+            
+        <!--Title-->
+        <div class="mytitle">
+            <img class="title-icon" id="icon1" src="Image/Vector-3.png">
+            <p class="title-text">人氣排行</p>
+        </div>
+        
+        <!-- Ranking -->
+        <div class="ranking"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="ranking-item"><a href="burger01.html"><img class="ranking-img" src="Image/Group 2.png"></a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="ranking-item"><a href="#"><img class="ranking-img" src="Image/Group 3.png"></a></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="ranking-item"><a href="#"><img class="ranking-img" src="Image/Group 4.png"></a></div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="ranking-item"><a href="#"><img class="ranking-img" src="Image/Group 5.png"></a></div>
+                </div>
+            </div>
+        </div>
+                
+                    
+                    
+           <!--Title-->
+        <div class="mytitle">
+            <img class="title-icon" src="Image/Vector-4.png">
+            <p class="title-text">企業社會責任</p>
+        </div>
+                
+                </div>
+
+        
+    
+
+        <!--Banner-->
+        <div class="banner">
+            <img class="banner-img" src="Image/banner_tw.jpeg">
+        </div>
+
+        <!--footer-->
+
+        <ul class="myfooter">
+                <li class="footer-content">客服專線：0800-208-128 台北市松江路156-1號8F</li>
+                <li class="footer-content">&copy; 2016 MOS Food Services, INC. All rights reserved.</li>
+        </ul>
+        
+
+    </div>
+    
+    
+
+    <!-- JS連結 -->
+	<script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+  
+</html>
+
+
+
+     
