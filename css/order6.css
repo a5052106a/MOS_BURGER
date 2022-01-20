@@ -1,0 +1,38 @@
+.see-button{
+    background:#E60012;
+    color: white;
+    border-radius: .5vmin;
+    border-width: 0;
+    width: 30vmin;
+    height: 5vmin;
+    /* 223*47 */
+    letter-spacing: 0.2em;
+    
+}
+.order-see-button:hover{
+    opacity:80%;
+}
+.oder6{
+    align-items: center;
+    justify-content: center;
+    /* background-color: white!important; */
+    
+}
+lottie-player{
+    background:"#FBF2D3;";
+    width: 80%;
+    align-items: center;
+}
+.txt{
+    text-align: center;
+}
+.mov{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.order6-img{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
