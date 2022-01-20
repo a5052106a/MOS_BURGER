@@ -35,84 +35,77 @@ nav{
 #link1:hover{
     color: white;
 }
-/* ------------------container-------------------- */
+
+
+/* container */
 
 .container{
     background-color: #FBF2D3;
-    padding-left: 40px;
-    padding-right: 117px;
-    display: inline-flex;
-}
-
-/* LEFT */
-
-.container-left{
+    padding:82px 120px 0 120px;
     display: block;
-}
-.container-left-img{
-    width: 280px;
-    height: 398px;
-    margin-top: 228px;
-    margin-right: 75px;
+    width: 1440px;
 }
 
-/* RIGHT */
-
-.container-right{
-    display: inline-block;
-}
 
 /* title */
 
-.title{
-    width: 928px;
-    padding-top: 87px;
-    padding-bottom: 23px;
-    display: flex;
-    align-items: center;
+.container_top{
+    margin-bottom: 31px;
 }
-h5{
-    display: inline;
+
+h1{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.2em;
-    font-weight: normal;
+    
+    color: #E60012;
 }
-h6{
-    display: inline;
+h5{
+    padding-top:calc(50% - 192px/2 - 448px);
+    padding-left: calc(50% - 1185px/2 + 0.5px);
+    font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 25px;
     letter-spacing: 0.2em;
-    padding-left: 10px;
-}
+    
+    color: #000000;
 
-/* banner */
-.banner{
-    border-radius: 20px;
-    margin-bottom: 10px;
 }
+/* basic */
 
-/* burger */
+.container-basic{
+    margin-bottom: 89px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px auto;
 
-.burger{
-    width: 928px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 75px;
+    
 }
-
-.burger-item{
-    display: inline-block;
-    width:280px;
-    height:350px;
-    margin-top: 44px;
+.container-button-img{
+    justify-content: center;
+    align-items: center;
+    display: block;
 }
-.burger-item:hover{
-    opacity: 80%;
+.order-button{
+    background:#E60012;
+    color: white;
+    border-radius: .5vmin;
+    border-width: 0;
+    width: 30vmin;
+    height: 5vmin;
+    /* 223*47 */
+    letter-spacing: 0.2em;
+    
 }
-
+.order-button:hover{
+    opacity:80%;
+}
 /* footer */
 footer{
     background-color: #FBF2D3;
@@ -127,10 +120,3 @@ p{
     letter-spacing: 0.2em;
     padding-bottom: 21px;
 }
-.order_2-container-left-img{
-    width: 280px;
-    height: 237px;
-    margin-top: 228px;
-    margin-right: 75px;
-}
-

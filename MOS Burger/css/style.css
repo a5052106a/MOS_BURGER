@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
     box-sizing: border-box;
     margin-left: 0px;
@@ -6,142 +7,264 @@
     font-style: normal;
 }
 
-/* header */
-
+.bg-color{
+    background-color: #FFA63E!important;
+}
 .myheader{
-    width: auto;
-    height: 100px;
+    height: 80px!important;
+    /* width: 100%;
     background-color: #FFA63E;
-    display: inline-flex;
+    display: flex;
+    align-items: right;
+    justify-content:space-between;
+    z-index: 40; */
 }
 .img-logo{
-    width: 100px;
-    height: 95px;
-    margin-left: 33px;
-    display: inline-block;
+    margin-left: 44px;
+    /* width: 80px;
+    height: 80px;
+    display: inline-block; */
 }
+.navbar-brand img {
+	height: 80px;
+}	
 
 /* NavBar */
 
 .mynav{
-    display: flex;
-    width: 1306px;
-    height: 100px;
-    padding: 50px 95px 29px 573px;
-    justify-content: space-between;
+    /* display: flex; */
+    /* width: auto; */
+    height: 80px;
+    /* padding: 40px 95px 19px 583px; */
+    margin-right: 95px;
+    justify-content:space-between;
+    padding-top: 20px;
+    justify-content: flex-end;
 }
 .mynav-item{
     text-decoration: none;
     color: black;
     letter-spacing: 0.2em;
+    margin-left: 45px;
+    font-size: 15px;
 }
-#link1:hover{
+
+.mynav-item:hover{
     color: white;
 }
-.mynav-item:hover{
-    color: black;
-}
 
-
-
-/* .mynav{
-    width: 1306px;
-    height: 100px;
-    padding: 44px 95px 35px 573px;
-}
-.myul{
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-}
-.mynav-link{
-    display: inline-block;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    letter-spacing: 0.2em;
-}
-
-
-.mynav-link:hover{
-    color: #FFFFFF;
-} */
 
 
 /* Body */
+body{
+    background-color: #FBF2D3;
+}
 .mycontainer {
-    width: 1440px;
-    padding-top: 44px;
+    width: 100%;
+    padding-top: 110px;
     padding-bottom: 15px;
     background-color: #FBF2D3;
+    /* padding-left : 77px ;
+    padding-right: 77px; */
 }
 /* Title */
 .mytitle{
     display: flex;
-    padding-left: 98px;
+    /* margin-left: 98px; */
+    margin-bottom: 2vmin;
     align-items: center;
 }
 .title-icon{
-    width: 36px;
+    width: 4vmin;
+    /* 36px */
 }
 
 .title-text{
     display: inline-block;
-    padding-left: 14px;
-    padding-top: 1.25rem;
+    padding-left: 1.8vmin;
     font-weight: 350;
-    font-size: 24px;
+    font-size: 2vmin; 
+    /* font-size: 17px; */
     letter-spacing: 0.2em;
 }
 
 /* Carousel */
 .carousel-setting{
-    width: 1286px;
-    margin: 0px 77px;
+    width: auto;
+    margin-left: 7vmin;
+    margin-right: 7vmin;
+    /* 77px */
 }
 .carousel-inner{
-    border-radius: 20px;
+    border-radius: 1.9vmin;
 }
 .d-block{
     width: 1000px;
 }
 /* Order */
-.box-order{
-    padding: 50px 155px 26.5px 155px;
+.order-box{
+    display: block;
+    width: auto;
+    margin: 9vmin 7vmin 7vmin 7vmin;
+    /* padding: 50px 155px 26.5px 155px; */
+    
+}
+.choose{
+    display: flex;
+    /* background: #000; */
+    width: 100%;
 }
 .img-order{
-    width: 1130px;
+    height: 4vmin;
+    margin-right: 1rem;
 }
+
+/* taborder */
+
+.radio-div{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    /* width: 43vmin; */
+}
+
+
+.radio-div input{
+    appearance: none;
+    -webkit-appearance: none;
+    opacity: 0;
+    outline: none;
+    align-items: center;
+}
+.order-label{
+    font-size: 3vmin;
+    background: rgba(229, 229, 229, 1);
+    border-radius: 1.9vmin;
+    text-align: center;
+    /* padding: 30px 100px; */
+    padding-top: 1.9vmin;
+    line-height: 4vmin;
+    letter-spacing: 0.2em;
+    /* padding: 100px; */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.radio-div input:checked+label {
+    background: white;
+}
+
+
+.tabtxt{
+    background: white;
+    height: 27vmin;
+    display: none;
+    border-radius: 1.9vmin;
+    font-size: 2vmin;
+    /* padding: 51px 44px 52px 46px; */
+    padding: 7vmin 5vmin 9.3vmin 5.1vmin;
+  }
+.tabtxt.on{
+    display: block;
+  }
+
+  .order-time{
+    margin-bottom: 1.1vmin;
+}
+.oder-selection{
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.order-left{
+    width: 100%;
+}
+.order-store{
+    margin-right: .9vmin;
+    padding-top: .7vmin; 
+    /* 3px */
+}
+
+.order-dropdown{
+    display: inline-flex;
+}
+.order-add{
+    margin-top: 1vmin;
+    margin-left: 10vmin;
+}
+.order-right{
+    justify-content: center;
+    font-size: 3vmin;
+    /* 24px */
+    font-weight: bold;
+    align-items: center;
+    display: block;
+}
+.order-button{
+    background:#E60012;
+    color: white;
+    border-radius: 1.1vmin;
+    border-width: 0;
+    width: 28vmin;
+    height: 5vmin;
+    /* 223*47 */
+    letter-spacing: 0.2em;
+    margin-top: 1.5vmin;
+    margin-bottom: 8vmin;
+    align-items: center;
+    justify-content: center;
+}
+.order-button:hover{
+    opacity:80%;
+}
+
+
+
+
+
+
+
+
+
 
 /* Ranking */
 .ranking{
     display: flex;
-    justify-content: space-between;
-    padding: 26.5px 107px;
+    justify-content: space-around;
+    margin-right: 10.7vmin;
+    margin-left: 10.7vmin;
+    width: auto;
+    
 }
 .ranking-item{
-    width: 242px;
-    height: 302px;
+    width: 90%;
+    /* padding-left: .5mvin; */
+    margin-bottom: 5vmin;
 }
-#link2:hover{
+.ranking-img{
+    width: 100%;
+}
+.ranking-item:hover{
+    opacity: 80%;}
+/* #link2:hover{
     opacity: 80%;
-}
+} */
 
 
 /* Banner */
 .banner{
-    padding:26.5px 0px ;
+    padding:1.5vmin 0px ;
 }
 .banner-img{
-    width: 1440px;
+    width: 100%;
 }
 
 
 
 /* Footer */
 .myfooter{
-    margin: 23.5px;
+    margin: 1.5vmin;
     display: flex;
     text-align: center; 
     list-style: none;
@@ -150,6 +273,34 @@
 }
 .footer-content{
     font-weight: 400;
-    font-size: 18px;
+    font-size: .9vmin;
     letter-spacing: 0.2em;
+}
+
+
+
+
+
+.aaaa{
+background: #000;
+width: 100vmin;
+height: 100vmin;
+display: flex;
+color: white;
+font-size: 20px;
+text-align: center;
+margin: auto;
+}
+.aaaa label{
+    background:green;
+}
+.bbbb{
+    background: red;
+    width: 100%;
+    height: 20vmin;
+}
+.cccc{
+    background:blue;
+    width: 100%;
+    height: 20vmin;
 }
